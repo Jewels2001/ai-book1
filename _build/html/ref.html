@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>References &#8212; Visualize 120 years of Summer Olympics</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Conclusion" href="conclusion.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/olympics.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Visualize 120 years of Summer Olympics</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Olymvis
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="abstract.html">
+   Abstract
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="motivation.html">
+   Motivation
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="03-lit/index.html">
+   Literature review
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="03-lit/01-lit-female.html">
+     Female Participation in Summer Olympics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="03-lit/02-lit-homefield.html">
+     Home-field Advantage
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="03-lit/03-lit-efficiency.html">
+     Medal Efficiency
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="03-lit/04-lit-ranking.html">
+     Ranking Sports by Number of Athletes
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="04-plans/index.html">
+   Visualization Plans
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="04-plans/01-plans-female.html">
+     Plans: Female Participation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="04-plans/02-plans-homefield.html">
+     Plans: Home-field Advantage
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="04-plans/03-plans-efficiency.html">
+     Plans: Medal Efficiency
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="04-plans/04-plans-ranking.html">
+     Plans: Ranking Sports
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="05-plots/index.html">
+   Plotting
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="05-plots/02-plots-female-continent.html">
+     Female Participation Across Continents
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="05-plots/03-plots-homefield.html">
+     Home-field Advantage
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="05-plots/04-plots-efficiency.html">
+     Medal Efficiency
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="05-plots/05-plots-ranking.html">
+     Ranking Sports
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   References
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/ref.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h1>
+<p>Abrams, O. (2019, June 23). Why Female Athletes Earn Less Than Men Across Most Sports. Retrieved from <a class="reference external" href="https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/%5C#646f8eeb40fb">https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/#646f8eeb40fb</a>.</p>
+<p>Baker, C. N., Seymour, E., &amp;Zimbalist, A. (2019, April 18). Less Money, Less Media: How Female Athletes are Undervalued. Retrieved from <a class="reference external" href="https://msmagazine.com/2019/04/18/less-money-less-media-how-female-athletes-are-undervalued/">https://msmagazine.com/2019/04/18/less-money-less-media-how-female-athletes-are-undervalued/</a>.</p>
+<p>Bian, X. (2005). Predicting Olympic medal counts: The effects of economic development on Olympic performance. <em>The park place economist, 13</em>(1), 37-44.</p>
+<p>Beutler, I. (2008). Sport serving development and peace: Achieving the goals of the United Nations through sport. <em>Sport in society, 11</em>(4), 359-369.</p>
+<p>Bernard, A. B., &amp; Busse, M. R. (2004). Who wins the Olympic Games: Economic resources and medal totals. <em>Review of economics and statistics, 86</em>(1), 413-417.</p>
+<p>COC. (2014, March 27). 10th-15th Olympic Games: 1936-1952. Retrieved from <a class="reference external" href="http://en.olympic.cn/games/summer/2004-03-27/121663.html">http://en.olympic.cn/games/summer/2004-03-27/121663.html</a>.</p>
+<p>Cooky, C., Messner, M. A., &amp; Musto, M. (2015). “It’s dude time!” A quarter century of excluding women’s sports in televised news and highlight shows. <em>Communication &amp; Sport, 3</em>(3), 261-287.</p>
+<p>Cottrell, M. P., &amp; Nelson, T. (2011). Not just the Games? Power, protest and politics at the Olympics. <em>European Journal of International Relations, 17</em>(4), 729-753.</p>
+<p>Darnell, S. C. (2012). Olympism in action, Olympic hosting and the politics of ‘sport for development and peace’: Investigating the development discourses of Rio 2016. <em>Sport in Society, 15</em>(6), 869-887.</p>
+<p>Dutta, D. (2018). Analysing the Olympics (for last 120 yrs.). Retrieved from <a class="reference external" href="https://www.kaggle.com/duttadebadri/analysing-the-olympics-for-last-120-yrs">https://www.kaggle.com/duttadebadri/analysing-the-olympics-for-last-120-yrs</a>.</p>
+<p>Farmer, I. (2017, December 18). Why are female athletes paid less than male athletes? Retrieved from <a class="reference external" href="https://news.jrn.msu.edu/2017/12/why-are-female-athletes-paid-less-than-male-athletes/">https://news.jrn.msu.edu/2017/12/why-are-female-athletes-paid-less-than-male-athletes/</a>.</p>
+<p>Forbes (2019). World’s Highest Paid Athletes. Retrieved from <a class="reference external" href="https://www.forbes.com/athletes/list/%5C#tab:overall">https://www.forbes.com/athletes/list/#tab:overall</a>.</p>
+<p>Ghildiyal, R. (2015). Role of sports in the development of an individual and role of psychology in sports. Retrieved from <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4381313/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4381313/</a>.</p>
+<p>Giulianotti, R. (2015). The Beijing 2008 Olympics: Examining the interrelations of China, globalization, and soft power. <em>European Review, 23</em>(2), 286-296.</p>
+<p>Goldblatt, D. (2016, August 4). Nobody wants to host the Olympic Games anymore. Can you blame them? Retrieved from <a class="reference external" href="https://qz.com/748894/nobody-wants-to-host-the-olympic-games-anymore-can-you-blame-them/">https://qz.com/748894/nobody-wants-to-host-the-olympic-games-anymore-can-you-blame-them/</a>.</p>
+<p>Good, A. (2015, June 5). When it comes to women in sports, TV news tunes out. Retrieved from <a class="reference external" href="https://news.usc.edu/82382/when-it-comes-to-women-in-sports-tv-news-tunes-out/">https://news.usc.edu/82382/when-it-comes-to-women-in-sports-tv-news-tunes-out/</a>.</p>
+<p>Grix, J. (2013). Sport politics and the Olympics. <em>Political studies review, 11</em>(1), 15-25.</p>
+<p>Center for Strategic International Studies (n.d.). How dominant is China at the Olympic Games? Retrieved from <a class="reference external" href="https://chinapower.csis.org/dominant-china-olympic-games/">https://chinapower.csis.org/dominant-china-olympic-games/</a>.</p>
+<p>International Table Tennis Federation. (2018). Tyko 2020 Qualification System Table Tennis (Eng). Retrieved from <a class="reference external" href="https://www.ittf.com/wp-content/uploads/2018/05/2018-05-14-Tokyo-2020-Qualification-system-Table-Tennis-eng.pdf">https://www.ittf.com/wp-content/uploads/2018/05/2018-05-14-Tokyo-2020-Qualification-system-Table-Tennis-eng.pdf</a>.</p>
+<p>Johnson, I. (2008, August 13). Who’s on First in Medals Race? Retrieved from <a class="reference external" href="https://www.wsj.com/articles/SB121856271893833843?ns=prod/accounts-wsj">https://www.wsj.com/articles/SB121856271893833843?ns=prod/accounts-wsj</a>.</p>
+<p>Klein, J. Z. (2008, August 23). The Medal Rankings: Which Country Leads the Olympics? [FINAL UPDATE]. Retrieved from <a class="reference external" href="https://beijing2008.blogs.nytimes.com/2008/08/23/the-medal-rankings-which-country-leads-the-olympics/">https://beijing2008.blogs.nytimes.com/2008/08/23/the-medal-rankings-which-country-leads-the-olympics/</a>.</p>
+<p>Ludacer, R. (2018, February 6). No one wants to host the Olympics anymore - will they go away? Retrieved from <a class="reference external" href="https://www.businessinsider.com/future-olympics-no-country-wants-to-host-games-2018-2">https://www.businessinsider.com/future-olympics-no-country-wants-to-host-games-2018-2</a>.</p>
+<p>MacAloon, J. (1995). Politics and the Olympics: some new dimensions. Received from <a class="reference external" href="https://www.recercat.cat/bitstream/handle/2072/10632/WP053_eng.pdf?sequence=1">https://www.recercat.cat/bitstream/handle/2072/10632/WP053_eng.pdf?sequence=1</a>.</p>
+<p>MacKenzie, M. (2019, July 16). Female Athletes Receive Only 4% of Sports Media Coverage-Adidas Wants to Change That. Retrieved from <a class="reference external" href="https://www.glamour.com/story/female-athletes-receive-only-4-of-sports-media-coverage-adidas-wants-to-change-that">https://www.glamour.com/story/female-athletes-receive-only-4-of-sports-media-coverage-adidas-wants-to-change-that</a>.</p>
+<p>Malfas, M., Theodoraki, E., &amp; Houlihan, B. (2004, September). Impacts of the Olympic Games as mega-events. In <em>Proceedings of the Institution of Civil Engineers-Municipal Engineer} (Vol. 157, No. 3, pp. 209-220</em>. Thomas Telford Ltd.</p>
+<p>Mervosh, S., &amp; Caron, C. (2019, March 8). 8 Times Women in Sports Fought for Equality. Retrieved from <a class="reference external" href="https://www.nytimes.com/2019/03/08/sports/women-sports-equality.html">https://www.nytimes.com/2019/03/08/sports/women-sports-equality.html</a>.</p>
+<p>Mower, J. (2012, January 1). London 2012: Olympic success is key to national pride. Retrieved from <a class="reference external" href="https://www.bbc.com/news/world-16245075">https://www.bbc.com/news/world-16245075</a>.</p>
+<p>Nunes, R.A. (2019). Women athletes in the Olympic Games. <em>Journal of Human Sport and Exercise. 2019, 14</em>(3): 674-683. doi:10.14198/jhse.2019.143.17</p>
+<p>Osada, M., Ojima, M., Kurachi, Y., Miura, K., &amp; Kawamoto, T. (2016). Economic impact of the Tokyo 2020 Olympic games. Bank of Japan Reports and Research Paper, Tokyo, January. Retrieved from <a class="reference external" href="http://www.trustfu.com/Uploads/image/20180827/20180827212024_95674.pdf">http://www.trustfu.com/Uploads/image/20180827/20180827212024_95674.pdf</a>.</p>
+<p>Rathke, A., &amp; Woitek, U. (2007). Economics and Olympics: An efficiency analysis. Available at SSRN 967629.</p>
+<p>Sandercock, G., Beedie, C., &amp; Mann, S. (2016). Is Olympic inspiration associated with fitness and physical activity in English schoolchildren? A repeated cross-sectional comparison before and 18 months after London 2012. <em>British Medical Journal Open, 6</em>(11).</p>
+<p>Soós, I., Martínez, J. C. F., &amp; Szabo, A. (2017). Before the Rio Games: A retrospective evaluation of the effects of the population size, GDP and national temperature on winning medals at the 2012 London Olympic Games. <em>Journal of Human Sport and Exercise, 12</em>(1), 246-250.</p>
+<p>Wikipedia (n.d.). Retrieved from https://en.wikipedia.org/wiki/Table_tennis_at_the_2020_Summer_Olympics_–_Qualification.</p>
+<p>Warburton, D. E., Nicol, C. W., &amp; Bredin, S. S. (2006). Health benefits of physical activity: the evidence. <em>Cmaj, 174</em>(6), 801-809.</p>
+<p>World Bank (2018). Population 2018. Retrieved from <a class="reference external" href="https://databank.worldbank.org/data/download/POP.pdf">https://databank.worldbank.org/data/download/POP.pdf</a>.</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="conclusion.html" title="previous page">Conclusion</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Chris Fang & Hongtao Hao<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
