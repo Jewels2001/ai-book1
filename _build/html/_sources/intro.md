@@ -13,6 +13,10 @@ This study analyzed the historical data which contains information on athletes i
 
 Results showed that both total number of athletes and the rate of female participation have been increasing in the past 120 years. Also, there seems to exist a home-field advantage. Third, medal efficiency is highly correlated with participating country or region’s economic development. Finally, athletics, gymnastics, and swimming have the highest number of athletes.
 
+```{tip}
 You can also download the [PDF version](https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/tex-pdf/fang_hao_olymvis.pdf) of our paper, whose LaTex source code can be found [here](https://github.com/hongtaoh/olymvis/blob/master/static/tex-pdf/fang_hao_olymvis.tex).
+```
 
-Logo image credit: [wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Olympics.svg/1200px-Olympics.svg.png)
+```{note}
+Logo image credit: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Olympics.svg/1200px-Olympics.svg.png)
+```

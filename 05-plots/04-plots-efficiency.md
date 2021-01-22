@@ -11,4 +11,8 @@ We then plotted a choropleth map using orthographic projection. We applied Virid
   </figcaption>
 </figure>
 
+```{tip}
+You can have a look at the interactive version of the above graph [here](https://olymvis.netlify.app/paper/#medal-efficiency-1).
+```
+
 We found this index both more accurate and intuitive. The reasons why it is more accurate have been outlined above. We believe that it is also more intuitive because, for example, for countries that still exist today, the highest medal efficiency is 0.91 for the United States of America. The fact that the highest is close to one makes it easier to compare between countries. 

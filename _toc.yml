@@ -15,7 +15,7 @@
     - file: 04-plans/04-plans-ranking
 - file: 05-plots/index
   sections:
-    - file: 05-plans/01-plots-female
+    - file: 05-plots/01-plots-female
     - file: 05-plots/02-plots-female-continent
     - file: 05-plots/03-plots-homefield
     - file: 05-plots/04-plots-efficiency

@@ -20,9 +20,11 @@ The blue dots were too packed. We later tried beeswarm plot coupled with box plo
 
 To show density distribution of medal percentages, we used kernel density estimation in a small multiple. The x-axis is the medal percentage and the y-axis is the probability density. We used a red arrow to denote when the country was an Olympics host. An arrow located at the tail would indicate the existence of home-field advantage. See Figure 32.
 
+````{div} full-width
 <figure>
   <img src="https://raw.githubusercontent.com/hongtaoh/olymvis/master/static/pics/g-2-9.png"></img>
   <figcaption>
   	Figure 32: KDE in small multiple for home-field advantage
   </figcaption>
 </figure>
+````
