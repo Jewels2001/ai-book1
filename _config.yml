@@ -3,3 +3,16 @@ title: Visualize 120 years of Summer Olympics
 author: Chris Fang & Hongtao Hao
 logo: olympics.png
 
+html:
+  home_page_in_navbar: false
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: false
+  baseurl: https://olymvis-jupyterbook.hongtaoh.com/
+
+repository:
+  url: https://github.com/hongtaoh/olymvis-jupyterbook
+  branch: master
+
+
+
