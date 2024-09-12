@@ -1,7 +1,6 @@
 format: jb-book
-root: index
+root: intro
 chapters:
-- file: intro
 - file: 03-lit/index
   sections:
     - file: 03-lit/01-lit
