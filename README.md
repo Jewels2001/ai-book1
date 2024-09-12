@@ -1,4 +1,11 @@
 # About
+
+
+# Template Accreditation:
+ - Originally found on 
+
+
+
 This project was completed by [Zihui (Chris) Fang](https://github.com/zihfang/) and [Hongtao Hao](https://hongtaoh.com/), with **Equal Contribution**, as the final paper for Professor [Yong-Yeol Ahn](http://yongyeol.com/)'s [Data Visualization](https://yyahn.com/dviz-course/) course in 2019 Fall. 
 
 ## Summary

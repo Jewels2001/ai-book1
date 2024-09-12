@@ -1,5 +1,7 @@
 # References
 
+Any references can go here. Examples follow:
+
 Abrams, O. (2019, June 23). Why Female Athletes Earn Less Than Men Across Most Sports. Retrieved from [https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/\#646f8eeb40fb](https://www.forbes.com/sites/oliviaabrams/2019/06/23/why-female-athletes-earn-less-than-men-across-most-sports/\#646f8eeb40fb).
 
 Baker, C. N., Seymour, E., \&Zimbalist, A. (2019, April 18). Less Money, Less Media: How Female Athletes are Undervalued. Retrieved from [https://msmagazine.com/2019/04/18/less-money-less-media-how-female-athletes-are-undervalued/](https://msmagazine.com/2019/04/18/less-money-less-media-how-female-athletes-are-undervalued/).

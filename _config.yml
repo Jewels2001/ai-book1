@@ -1,7 +1,7 @@
 # Book settings
-title: Visualize 120 years of Summer Olympics
-author: Chris Fang & Hongtao Hao
-logo: olympics.png
+title: An Introduction to "AI" in My Opinion
+author: Julie / jewels2001
+# logo: olympics.png
 
 html:
   home_page_in_navbar: false
@@ -11,7 +11,7 @@ html:
   baseurl: https://olymvis-jupyterbook.hongtaoh.com/
 
 repository:
-  url: https://github.com/hongtaoh/olymvis-jupyterbook
+  url: https://github.com/jewels2001/ai-book1
   branch: master
 
 
